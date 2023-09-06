@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Hello World Program using Vanilla JavaScript  -->
+    <!-- <div id="root"></div>
+
+    <script>
+      const heading = document.createElement('h1');
+
+      heading.innerHTML = 'Hello world from JavaScript';
+
+      const root = document.getElementById('root');
+
+      root.appendChild(heading);
+    </script> -->
+    <!-- React CDN Link  -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- This is core of the React  -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- This is the React DOM  -->
+
+    <script src="./App.js"></script>
+  </body>
+</html>
+
+<!-- To Research about 
+1) What is CDN?
+-> A content delivery network (CDN) is geographically group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+
+The popularity of CDN servies continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix  and Amazon.
+
+A properly configured CDN may also help protect websites against some common malicious attacks, such as Distributed Denial of Service (DDOS) attacks.
+
+
+2) What is Cross-Origin in Script tag?
+- The cross-origin sets the mode of the request to an HTTP CORS (Cross-Origin Resource Sharing) request.
+- Web pages often makes requests to load resources on other servers.
+- A Cross-Origin request is a request for a resource (eg: Style sheets, Iframes, images, fonts or scripts) from another domain.
+-->
