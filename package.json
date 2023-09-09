@@ -1,0 +1,26 @@
+{
+  "name": "firstreactnpm",
+  "version": "1.0.0",
+  "description": "this is for namasteReact",
+  "main": "APP.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePlator/Namaste_React.git"
+  },
+  "keywords": [
+    "React",
+    "Namaste_React"
+  ],
+  "author": "Sameer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePlator/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/ThePlator/Namaste_React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
