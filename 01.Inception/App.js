@@ -60,3 +60,16 @@ A properly configured CDN may also help protect websites against some common mal
 - Web pages often makes requests to load resources on other servers.
 - A Cross-Origin request is a request for a resource (eg: Style sheets, Iframes, images, fonts or scripts) from another domain.
 */
+
+/**Hello World Program using Vanilla JavaScript  
+     <div id="root"></div>
+
+    <script>
+      const heading = document.createElement('h1');
+
+      heading.innerHTML = 'Hello world from JavaScript';
+
+      const root = document.getElementById('root');
+
+      root.appendChild(heading);
+    </script> */
