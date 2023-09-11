@@ -143,3 +143,39 @@ For example in `package.json` file:
 - **^** : `Compatible with version`, will update you to all future minor/patch versions, without incrementing the major version.
 
 > If none of them is present, that means only the version specified in `package.json` file is used in the development.
+
+## Q: what is `.parcel-cache`?
+
+A: `.parcel-cache` is used by parcel(bundler) to reduce the building time.
+It store information about your project when parcel builds it, so that when it rebuilds, it doesn't have to re parse and re analyze everything from scratch. It's a key reason why parcel can be so fasst in development mode.
+
+## Q: what is `npx`?
+
+A: `npx` is a tool that is used to execute the packages. It comes with the npm, when you installed npm above 5.2.0 version then automatically npx will installed. It is an npm package runner that can execute any package that you want from npm registry without even installing that package.
+
+## Q: What is `Tree Shaking`?
+
+A: `Tree Shaking` is process of removing the unwanted code that we do not use while developing thte application.
+In computing, tree shaking is a dead code elimination technique that is applied when optimizing code.
+
+## Q: What is `Hot Module Replacement`?
+
+A: `Hot Module Replacement` exchanges, adds, or removes modules while an application is running, without a full reload. This can significantly speed up development in few ways: retain application state which is lost during a full reload.
+
+## Q: List down your favorite `5 superpowers of Parcel` and describe any 3 of them in your own words.
+
+A: `5 superpowers of Parcel`:
+
+- `HMR (Hot Module Replacement)` - adds, or removes modules while an application is running, without a full reload.
+- `File watcher algorithm` - File Watchers monitor directories on the file system and perform specific actions when desired files appear.
+- `Minification` - Minification is the process of minimizing code and markup in your web pages and script files.
+- `Image optimization`
+- `Caching while development`
+
+## Q: What is the `dist` folder?
+
+A: The `/dist` folder contains the minimized version of the source code. The code present in the `/dist` folder is actually the code which is used on production web applications. Along with the minified code, the `/dist` folder also comprises of all the compiles modules that may or may not be used with other systems.
+
+## Q: What is `browserslist`?
+
+A: `Browserslist` is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
