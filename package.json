@@ -2,9 +2,10 @@
   "name": "firstreactnpm",
   "version": "1.0.0",
   "description": "this is for namasteReact",
-  "main": "APP.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel public/index.html",
+    "build":"parcel build public/index.html"
   },
   "repository": {
     "type": "git",
@@ -28,4 +29,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
+ "browserslist":[
+    "last 10 versions"
+  ]
+  
 }
